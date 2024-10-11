@@ -10,6 +10,7 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <toolWindow factoryClass="com.github.grigala.livetemplatecustomexpressions.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
+        <liveTemplateMacro implementation="com.github.grigala.livetemplatecustomexpressions.macro.CurrentGitBranch"/>
     </extensions>
 
     <applicationListeners>
